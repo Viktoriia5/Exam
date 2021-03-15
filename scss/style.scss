@@ -1,0 +1,32 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now";
+@import "_var.scss";
+@import "_mixins.scss";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap");
+@import "header.scss";
+@import "hero.scss";
+@import "about.scss";
+@import "action.scss";
+@import "spain.scss";
+@import "spain2.scss";
+@import "review.scss";
+@import "footer.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+button{
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.spain {
+  width: 100%;
+  background: url("../images/spain.png") no-repeat center;
+  color: #e8e8e8;
+  display: flex;
+
+  &__info {
+    width: 60%;
+    padding: 10% 10%;
+    @media (max-width: 800px) {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .info {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 5%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &__country {
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        letter-spacing: 1.5px;
+      }
+
+      &__name {
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      &__text {
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 26px;
+        text-align: left;
+      }
+      &__button a button {
+        width: 225px;
+        height: 60px;
+        background-color: #5474fd;
+        border: none;
+        outline: none;
+        color: #fff;
+      }
+    }
+  }
+}
